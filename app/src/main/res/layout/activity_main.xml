@@ -10,7 +10,13 @@
     tools:context="com.hashexclude.testapp.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/txt_image_gallery_selector"
+        android:layout_width="240dp"
+        android:layout_height="130dp"
+        android:padding="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="Simple Gallery Selector"
+        android:gravity="center"
+        android:textSize="30sp"/>
 </RelativeLayout>
